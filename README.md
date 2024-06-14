@@ -7,3 +7,7 @@ This paper discusses the implementation of John M. Chowning’s traditional FM s
 ## Algorithm
 The simplest form that describe the relationship of the carrier and modulator signal in FM synthesis is the following equation:
 $$y(t)=A_{carrier} \cdot sin(2 \cdot \pi \cdot f_{carrier} \cdot t + A_{mod} \cdot (2 \cdot \pi f_{mod} \cdot t))$$
+
+To implement the specific FM algorithm in software the equation is found as being the following:
+
+$$y[n] = A_c \cdot cos(2 \cdot \pi \cdot f_c \cdot \frac{n}{f_s} + \frac{A_{mod}}{f_mod} \cdot sin(2 \cdot \pi \cdot f_{mod} \cdot \frac{n}{f_s})) $$
