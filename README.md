@@ -14,5 +14,5 @@ $$y[n] = A_c \cdot cos(2 \cdot \pi \cdot f_c \cdot \frac{n}{f_s} + \frac{A_{mod}
 
 ## Block diagram
 <p align="center">
-  <img width="200" src="https://github.com/ThaDuyx/fmodulator/blob/main/fmodulator/assets/johnChowning.png?raw=true"
+  <img width="500" src="https://github.com/ThaDuyx/fmodulator/blob/main/fmodulator/assets/johnChowning.png?raw=true"
 </p>
